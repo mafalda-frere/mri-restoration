@@ -1,0 +1,19 @@
+acceleration_factor: 8
+batch_size: 1
+data_folder: data/exp_fig_2
+data_mean: 0.0001204
+data_std: 0.000118
+device: cuda
+epochs: 20000
+kspace_shape:
+- 320
+- 320
+lr: 1e-4
+min_loss: 0.01
+model:
+  conv_channels: 64
+  dim_bottleneck: 64
+res_dir: results/
+restore: null
+seed: 3
+verbose: 100
